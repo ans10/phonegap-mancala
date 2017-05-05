@@ -4,8 +4,8 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android   = "http://schemas.android.com/apk/res/android"
         id          = "com.gamingplatform.mancala"
-        versionCode = "1.5"
-        version     = "1.0.5" >
+        versionCode = "1.6"
+        version     = "1.0.6" >
     <!-- versionCode is optional and Android only:
       needs to be increased every time you submit a new APK version.
       see: http://developer.android.com/tools/publishing/versioning.html
@@ -32,7 +32,7 @@
 
     <!-- Customize your app and platform with the preference element. -->
     <preference name="phonegap-version"           value="cli-6.5.0" />
-    <preference name="orientation"                value="default" />        <!-- all: default means both landscape and portrait are enabled -->
+    <preference name="orientation"                value="landscape" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="fullscreen"                 value="false" />          <!-- all: hides the status bar at the top of the screen -->
     <preference name="EnableViewportScale"        value="true"/>            <!-- ios: EnableViewportScale (boolean, defaults to false): Set to true to allow a viewport meta tag to either disable or restrict the range of user scaling, which is enabled by default. -->
     <preference name="target-device"              value="universal" />      <!-- ios: possible values handset, tablet, or universal -->
